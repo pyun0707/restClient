@@ -19,9 +19,8 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
-import sun.net.www.http.HttpClient;
+import kt.idss.service.GetOrderInfoServiceLocator;
 
- 
 public class client {
     public static void main(String[] args) {
         try {
@@ -32,7 +31,7 @@ public class client {
                 if (type.equals("1")){
                      
                     System.out.println("=============http 연동을 시작합니다============");
-                    HttpPost httpPost = new HttpPost("http://192.168.10.4:8700/idssws/services/rest/restTest");
+                    HttpPost httpPost = new HttpPost("http://192.168.10.4:8700/idssws/services/GetStateInfoService/GetStateInfoService");
                     @SuppressWarnings("deprecation")
                     DefaultHttpClient httpClient = new DefaultHttpClient();
                                     
@@ -140,6 +139,30 @@ public class client {
                     }catch (Exception e) {
                         e.printStackTrace();
                         // TODO: handle exception
+                    }
+                }else if(type.equals("3")){
+
+                    System.out.println(" id를 입력하세요 ");
+                    String id = sc.nextLine();
+                    ClientService client = null;
+                    org.apache.axis.client.Service locator = null;
+                    
+                    try{
+                    locator =new GetOrderInfoServiceLocator();
+                    client     = new NeossClient();
+                    
+                    
+                    
+                    
+                    ClientInfo info = new ClientInfo();
+                    info.setREQ_URL("http://192.168.10.4:8700");
+                    info.setSYSTEM_ID("");
+                    info.setSYSTEM_IP("");
+                    info.setWORKER_ID("");
+                    client.execute(locator, info, id);
+                    }catch (Exception e) {
+                        // TODO: handle exception
+                        e.printStackTrace();
                     }
                 }
                

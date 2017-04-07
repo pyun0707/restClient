@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//src/kt/idss/service/GetOrderInfoService.java=UTF-8
+encoding//src/kt/idss/service/GetOrderInfoServiceLocator.java=UTF-8
+encoding//src/kt/idss/service/GetOrderInfoServicePortType.java=UTF-8
+encoding//src/kt/idss/service/GetOrderInfoServiceSoapBindingStub.java=UTF-8
+encoding//src/kt/idss/service/neoss/ws/vo/RepOrderInfo.java=UTF-8
+encoding//src/kt/idss/service/neoss/ws/vo/ReqBasic.java=UTF-8

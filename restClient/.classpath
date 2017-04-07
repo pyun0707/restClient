@@ -13,24 +13,5 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="/dev_idss_cemsws_20170307/webapp/WEB-INF/lib/axis-ant.jar"/>
-	<classpathentry kind="lib" path="/dev_idss_cemsws_20170307/webapp/WEB-INF/lib/axis.jar"/>
-	<classpathentry kind="lib" path="/dev_idss_cemsws_20170307/webapp/WEB-INF/lib/commons-codec-1.6.jar"/>
-	<classpathentry kind="lib" path="/dev_idss_cemsws_20170307/webapp/WEB-INF/lib/commons-collections-3.2.1.jar"/>
-	<classpathentry kind="lib" path="/dev_idss_cemsws_20170307/webapp/WEB-INF/lib/commons-configuration-1.3.jar"/>
-	<classpathentry kind="lib" path="/dev_idss_cemsws_20170307/webapp/WEB-INF/lib/commons-discovery-0.2.jar"/>
-	<classpathentry kind="lib" path="/dev_idss_cemsws_20170307/webapp/WEB-INF/lib/commons-lang-2.2.jar"/>
-	<classpathentry kind="lib" path="/dev_idss_cemsws_20170307/webapp/WEB-INF/lib/commons-logging-1.0.4.jar"/>
-	<classpathentry kind="lib" path="/dev_idss_cemsws_20170307/webapp/WEB-INF/lib/gson-2.2.2.jar"/>
-	<classpathentry kind="lib" path="/dev_idss_cemsws_20170307/webapp/WEB-INF/lib/httpclient-4.3.6.jar"/>
-	<classpathentry kind="lib" path="/dev_idss_cemsws_20170307/webapp/WEB-INF/lib/httpcore-4.3.3.jar"/>
-	<classpathentry kind="lib" path="/dev_idss_cemsws_20170307/webapp/WEB-INF/lib/ibatis-2.3.0.677.jar"/>
-	<classpathentry kind="lib" path="/dev_idss_cemsws_20170307/webapp/WEB-INF/lib/jaxrpc.jar"/>
-	<classpathentry kind="lib" path="/dev_idss_cemsws_20170307/webapp/WEB-INF/lib/log4j-1.2.8.jar"/>
-	<classpathentry kind="lib" path="/dev_idss_cemsws_20170307/webapp/WEB-INF/lib/saaj.jar"/>
-	<classpathentry kind="lib" path="/dev_idss_cemsws_20170307/webapp/WEB-INF/lib/wsdl4j-1.5.1.jar"/>
-	<classpathentry kind="lib" path="/dev_idss_cemsws_20170307/webapp/WEB-INF/lib/xercesImpl.jar"/>
-	<classpathentry kind="lib" path="/dev_idss_cemsws_20170307/webapp/WEB-INF/lib/xml-apis.jar"/>
-	<classpathentry kind="lib" path="/dev_idss_cemsws_20170307/webapp/WEB-INF/lib/xmlsec-1.4.1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
